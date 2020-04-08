@@ -16,3 +16,4 @@ fs.readdirSync(basePath).forEach(file => {
 });
 
 module.exports = config;
+
