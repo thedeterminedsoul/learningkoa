@@ -11,7 +11,6 @@ const jwt = require('jsonwebtoken');
 const errorHandler = require('./middleware/error.middleware');
 
 function isAuthorized(ctx, next) {
-    console.log(`Authorization happening ${Date.now()}`);
     next();
 }
 
