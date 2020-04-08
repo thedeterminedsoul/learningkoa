@@ -7,6 +7,7 @@ const bodyParser = require('koa-bodyparser')();
 const helmet = require('koa-helmet')();
 const compress = require('koa-compress')();
 const logger = require('koa-logger')();
+const cors = require('@koa/cors')();
 
 const app = new koa();
 const router = new koaRouter();
@@ -55,6 +56,7 @@ app.use(router.routes());
 app.use(errorHandler)
     .use(helmet)
     .use(compress)
+    .use(cors)
     .use(bodyParser);
 
 app.listen(3000, () => {
