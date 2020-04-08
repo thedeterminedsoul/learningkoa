@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef35281a-bdbe-48ed-a01c-3e3220d1f082" name="Default Changelist" comment="">
+    <list default="true" id="ef35281a-bdbe-48ed-a01c-3e3220d1f082" name="Default Changelist" comment="some comments for future projects if I use this template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <updated>1585854859242</updated>
       <workItem from="1585854862615" duration="7253000" />
       <workItem from="1586295134129" duration="1355000" />
-      <workItem from="1586296511287" duration="5150000" />
+      <workItem from="1586296511287" duration="6225000" />
     </task>
     <task id="LOCAL-00001" summary="adding middleware definition">
       <created>1586384178339</created>
@@ -132,7 +130,56 @@
       <option name="project" value="LOCAL" />
       <updated>1586385248141</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding support for dotenv">
+      <created>1586385278418</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586385278418</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding database config file">
+      <created>1586385486972</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586385486972</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding server config file">
+      <created>1586385538320</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586385538320</updated>
+    </task>
+    <task id="LOCAL-00013" summary="adding configuration support.">
+      <created>1586385798596</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586385798596</updated>
+    </task>
+    <task id="LOCAL-00014" summary="linting">
+      <created>1586385888197</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586385888198</updated>
+    </task>
+    <task id="LOCAL-00015" summary="some comments for future projects if I use this template">
+      <created>1586385993210</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586385993210</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add default koa logger for development environment">
+      <created>1586386330876</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1586386330876</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +197,14 @@
     <MESSAGE value="adding support for koa logger" />
     <MESSAGE value="adding support or cors handling" />
     <MESSAGE value="adding sample .env file and support for configuration file" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding sample .env file and support for configuration file" />
+    <MESSAGE value="adding support for dotenv" />
+    <MESSAGE value="adding database config file" />
+    <MESSAGE value="adding server config file" />
+    <MESSAGE value="adding configuration support." />
+    <MESSAGE value="linting" />
+    <MESSAGE value="some comments for future projects if I use this template" />
+    <MESSAGE value="add default koa logger for development environment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add default koa logger for development environment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585855269187">
@@ -161,13 +215,13 @@
       <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state x="630" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.965@0.23.1680.965" timestamp="1586385174802" />
-    <state x="0" y="45" key="CommitChangelistDialog2" timestamp="1586385247957">
+    <state x="0" y="45" key="CommitChangelistDialog2" timestamp="1586386330702">
       <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.960@0.23.1680.960" timestamp="1586384576793" />
-    <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1586385247957" />
-    <state width="1228" height="106" key="GridCell.Tab.0.bottom" timestamp="1586384369668">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1586386330702" />
+    <state width="1228" height="106" key="GridCell.Tab.0.bottom" timestamp="1586386336965">
+      <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state width="1228" height="241" key="GridCell.Tab.0.bottom/0.23.1280.708@0.23.1280.708" timestamp="1586296489434" />
     <state width="1228" height="245" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1586188122281" />
@@ -176,9 +230,9 @@
     <state width="1016" height="222" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1586092425768" />
     <state width="1016" height="602" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1586093206828" />
     <state width="1228" height="106" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1586384369668" />
-    <state width="1228" height="106" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1586340759111" />
-    <state width="1228" height="106" key="GridCell.Tab.0.center" timestamp="1586384369667">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1228" height="106" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1586386336965" />
+    <state width="1228" height="106" key="GridCell.Tab.0.center" timestamp="1586386336964">
+      <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state width="1228" height="241" key="GridCell.Tab.0.center/0.23.1280.708@0.23.1280.708" timestamp="1586296489434" />
     <state width="1228" height="245" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1586188122280" />
@@ -187,9 +241,9 @@
     <state width="1016" height="222" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1586092425767" />
     <state width="1016" height="602" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1586093206827" />
     <state width="1228" height="106" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1586384369667" />
-    <state width="1228" height="106" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1586340759111" />
-    <state width="1228" height="106" key="GridCell.Tab.0.left" timestamp="1586384369667">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1228" height="106" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1586386336964" />
+    <state width="1228" height="106" key="GridCell.Tab.0.left" timestamp="1586386336963">
+      <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state width="1228" height="241" key="GridCell.Tab.0.left/0.23.1280.708@0.23.1280.708" timestamp="1586296489434" />
     <state width="1228" height="245" key="GridCell.Tab.0.left/0.23.1280.715@0.23.1280.715" timestamp="1586188122279" />
@@ -198,9 +252,9 @@
     <state width="1016" height="222" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1586092425767" />
     <state width="1016" height="602" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1586093206827" />
     <state width="1228" height="106" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1586384369667" />
-    <state width="1228" height="106" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1586340759110" />
-    <state width="1228" height="106" key="GridCell.Tab.0.right" timestamp="1586384369668">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1228" height="106" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1586386336963" />
+    <state width="1228" height="106" key="GridCell.Tab.0.right" timestamp="1586386336964">
+      <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state width="1228" height="241" key="GridCell.Tab.0.right/0.23.1280.708@0.23.1280.708" timestamp="1586296489434" />
     <state width="1228" height="245" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1586188122280" />
@@ -209,19 +263,19 @@
     <state width="1016" height="222" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1586092425767" />
     <state width="1016" height="602" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1586093206828" />
     <state width="1228" height="106" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1586384369668" />
-    <state width="1228" height="106" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1586340759111" />
-    <state x="433" y="206" key="Vcs.Push.Dialog.v2" timestamp="1586385084573">
+    <state width="1228" height="106" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1586386336964" />
+    <state x="433" y="206" key="Vcs.Push.Dialog.v2" timestamp="1586386333492">
       <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state x="433" y="205" key="Vcs.Push.Dialog.v2/0.23.1680.960@0.23.1680.960" timestamp="1586384431386" />
-    <state x="433" y="206" key="Vcs.Push.Dialog.v2/0.23.1680.965@0.23.1680.965" timestamp="1586385084573" />
+    <state x="433" y="206" key="Vcs.Push.Dialog.v2/0.23.1680.965@0.23.1680.965" timestamp="1586386333492" />
     <state x="0" y="86" key="new project wizard" timestamp="1586295660375">
       <screen x="0" y="23" width="1280" height="708" />
     </state>
     <state x="0" y="86" key="new project wizard/0.23.1280.708@0.23.1280.708" timestamp="1586295660375" />
-    <state x="568" y="23" width="838" height="965" key="search.everywhere.popup" timestamp="1586385039224">
+    <state x="568" y="23" width="838" height="965" key="search.everywhere.popup" timestamp="1586386301216">
       <screen x="0" y="23" width="1680" height="965" />
     </state>
-    <state x="568" y="23" width="838" height="965" key="search.everywhere.popup/0.23.1680.965@0.23.1680.965" timestamp="1586385039224" />
+    <state x="568" y="23" width="838" height="965" key="search.everywhere.popup/0.23.1680.965@0.23.1680.965" timestamp="1586386301216" />
   </component>
 </project>
