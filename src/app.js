@@ -18,6 +18,7 @@ const logger = require('koa-logger')();
 const cors = require('@koa/cors')();
 
 const { isDevelopment } = require('./config');
+const { port } = require('./config').server;
 
 const app = new koa();
 const router = new koaRouter();
@@ -73,7 +74,7 @@ app.use(errorHandler)
     .use(cors)
     .use(bodyParser);
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("Started KOA application");
     console.log(`APP ENV = ${app.env}`);
 });

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef35281a-bdbe-48ed-a01c-3e3220d1f082" name="Default Changelist" comment="some comments for future projects if I use this template">
+    <list default="true" id="ef35281a-bdbe-48ed-a01c-3e3220d1f082" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
@@ -65,7 +65,7 @@
       <updated>1585854859242</updated>
       <workItem from="1585854862615" duration="7253000" />
       <workItem from="1586295134129" duration="1355000" />
-      <workItem from="1586296511287" duration="6225000" />
+      <workItem from="1586296511287" duration="6384000" />
     </task>
     <task id="LOCAL-00001" summary="adding middleware definition">
       <created>1586384178339</created>
@@ -179,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586386330876</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="clients love indented code">
+      <created>1586386397280</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1586386397280</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +211,8 @@
     <MESSAGE value="linting" />
     <MESSAGE value="some comments for future projects if I use this template" />
     <MESSAGE value="add default koa logger for development environment" />
-    <option name="LAST_COMMIT_MESSAGE" value="add default koa logger for development environment" />
+    <MESSAGE value="clients love indented code" />
+    <option name="LAST_COMMIT_MESSAGE" value="clients love indented code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585855269187">
@@ -215,11 +223,11 @@
       <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state x="630" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.965@0.23.1680.965" timestamp="1586385174802" />
-    <state x="0" y="45" key="CommitChangelistDialog2" timestamp="1586386330702">
+    <state x="0" y="45" key="CommitChangelistDialog2" timestamp="1586386397137">
       <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.960@0.23.1680.960" timestamp="1586384576793" />
-    <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1586386330702" />
+    <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1586386397137" />
     <state width="1228" height="106" key="GridCell.Tab.0.bottom" timestamp="1586386336965">
       <screen x="0" y="23" width="1680" height="965" />
     </state>
@@ -264,11 +272,11 @@
     <state width="1016" height="602" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1586093206828" />
     <state width="1228" height="106" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1586384369668" />
     <state width="1228" height="106" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1586386336964" />
-    <state x="433" y="206" key="Vcs.Push.Dialog.v2" timestamp="1586386333492">
+    <state x="433" y="206" key="Vcs.Push.Dialog.v2" timestamp="1586386399328">
       <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state x="433" y="205" key="Vcs.Push.Dialog.v2/0.23.1680.960@0.23.1680.960" timestamp="1586384431386" />
-    <state x="433" y="206" key="Vcs.Push.Dialog.v2/0.23.1680.965@0.23.1680.965" timestamp="1586386333492" />
+    <state x="433" y="206" key="Vcs.Push.Dialog.v2/0.23.1680.965@0.23.1680.965" timestamp="1586386399328" />
     <state x="0" y="86" key="new project wizard" timestamp="1586295660375">
       <screen x="0" y="23" width="1280" height="708" />
     </state>
