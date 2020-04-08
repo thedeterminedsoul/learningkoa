@@ -2,6 +2,7 @@
 
 const koa = require('koa');
 const koaRouter = require('koa-router');
+const bodyParser = require('koa-bodyparser')();
 
 const app = new koa();
 const router = new koaRouter();
@@ -47,7 +48,8 @@ router.get('/hello', isAuthorized, (ctx) => {
 });
 
 app.use(router.routes());
-app.use(errorHandler);
+app.use(errorHandler)
+    .use(bodyParser);
 
 app.listen(3000, () => {
     console.log("Started KOA application");
