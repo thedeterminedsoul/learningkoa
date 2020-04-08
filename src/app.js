@@ -5,6 +5,7 @@ const koaRouter = require('koa-router');
 const bodyParser = require('koa-bodyparser')();
 // ToDo: Add security options later
 const helmet = require('koa-helmet')();
+const compress = require('koa-compress')();
 
 const app = new koa();
 const router = new koaRouter();
@@ -52,6 +53,7 @@ router.get('/hello', isAuthorized, (ctx) => {
 app.use(router.routes());
 app.use(errorHandler)
     .use(helmet)
+    .use(compress)
     .use(bodyParser);
 
 app.listen(3000, () => {

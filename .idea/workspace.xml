@@ -67,7 +67,7 @@
       <updated>1585854859242</updated>
       <workItem from="1585854862615" duration="7253000" />
       <workItem from="1586295134129" duration="1355000" />
-      <workItem from="1586296511287" duration="4719000" />
+      <workItem from="1586296511287" duration="4806000" />
     </task>
     <task id="LOCAL-00001" summary="adding middleware definition">
       <created>1586384178339</created>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586384576955</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding support for helmet">
+      <created>1586384846205</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586384846205</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,17 +117,19 @@
     <MESSAGE value="adding error handler in app.js" />
     <MESSAGE value="removing dummy code consoles" />
     <MESSAGE value="adding body parser for koa" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding body parser for koa" />
+    <MESSAGE value="adding support for helmet" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding support for helmet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585855269187">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="104" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.728@0.23.1280.728" timestamp="1585855269187" />
-    <state x="0" y="45" key="CommitChangelistDialog2" timestamp="1586384576793">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state x="0" y="45" key="CommitChangelistDialog2" timestamp="1586384846031">
+      <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.960@0.23.1680.960" timestamp="1586384576793" />
+    <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1586384846031" />
     <state width="1228" height="106" key="GridCell.Tab.0.bottom" timestamp="1586384369668">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
@@ -173,5 +182,9 @@
       <screen x="0" y="23" width="1280" height="708" />
     </state>
     <state x="0" y="86" key="new project wizard/0.23.1280.708@0.23.1280.708" timestamp="1586295660375" />
+    <state x="568" y="23" width="838" height="965" key="search.everywhere.popup" timestamp="1586384898779">
+      <screen x="0" y="23" width="1680" height="965" />
+    </state>
+    <state x="568" y="23" width="838" height="965" key="search.everywhere.popup/0.23.1680.965@0.23.1680.965" timestamp="1586384898779" />
   </component>
 </project>
