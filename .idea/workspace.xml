@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef35281a-bdbe-48ed-a01c-3e3220d1f082" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <updated>1585854859242</updated>
       <workItem from="1585854862615" duration="7253000" />
       <workItem from="1586295134129" duration="1355000" />
-      <workItem from="1586296511287" duration="5104000" />
+      <workItem from="1586296511287" duration="5150000" />
     </task>
     <task id="LOCAL-00001" summary="adding middleware definition">
       <created>1586384178339</created>
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586385081439</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding sample .env file and support for configuration file">
+      <created>1586385248141</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586385248141</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +149,8 @@
     <MESSAGE value="adding support for compression" />
     <MESSAGE value="adding support for koa logger" />
     <MESSAGE value="adding support or cors handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding support or cors handling" />
+    <MESSAGE value="adding sample .env file and support for configuration file" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding sample .env file and support for configuration file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585855269187">
@@ -152,11 +161,11 @@
       <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state x="630" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.965@0.23.1680.965" timestamp="1586385174802" />
-    <state x="0" y="45" key="CommitChangelistDialog2" timestamp="1586385081249">
+    <state x="0" y="45" key="CommitChangelistDialog2" timestamp="1586385247957">
       <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.960@0.23.1680.960" timestamp="1586384576793" />
-    <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1586385081249" />
+    <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1586385247957" />
     <state width="1228" height="106" key="GridCell.Tab.0.bottom" timestamp="1586384369668">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
