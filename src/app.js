@@ -75,8 +75,7 @@ app.use(errorHandler)
     .use(bodyParser);
 
 app.listen(port, () => {
-    console.log("Started KOA application");
-    console.log(`APP ENV = ${app.env}`);
+    console.log(`🚀 Started KOA application on port ${port}`);
 });
 
 
