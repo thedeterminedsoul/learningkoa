@@ -32,6 +32,7 @@ if(isDevelopment) {
 }
 
 function isAuthorized(ctx, next) {
+    // implement this function based on bearer token given
     next();
 }
 
@@ -60,7 +61,14 @@ function isAuthorized(ctx, next) {
 // });
 
 router.get('/gettoken', (ctx) => {
-    // jwt generation code
+    // we will be using private key concept here
+    // for the template, I'll keep dummy file
+    let privateKeyContent = fs.readFileSync('./src/private.pem', 'utf8');
+    // I know HS256 is generic one used everywhere
+    // use client specific algorithms when required at what level of security
+    let token = jwt.sign({body: 'hello'}, privateKeyContent, {algorithm: 'HS256'});
+    // this will be returned in body as of now, refactor it to be returned in header instead for clients
+    ctx.response.body = token;
 });
 
 router.get('/hello', isAuthorized, (ctx) => {
