@@ -5,8 +5,12 @@ const koaRouter = require('koa-router');
 const bodyParser = require('koa-bodyparser')();
 // ToDo: Add security options later
 const helmet = require('koa-helmet')();
+// ToDo: add compression options based on client requirements
 const compress = require('koa-compress')();
+// ToDo: Add logger information based on the client requirements
 const logger = require('koa-logger')();
+// ToDo: If Microservice, then avoid if used in internal VPN/VPC without authentication/authorization
+// ToDo: Although keep a place holder for future projects
 const cors = require('@koa/cors')();
 
 const app = new koa();
