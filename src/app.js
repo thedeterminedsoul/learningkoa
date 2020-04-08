@@ -6,6 +6,7 @@ const bodyParser = require('koa-bodyparser')();
 // ToDo: Add security options later
 const helmet = require('koa-helmet')();
 const compress = require('koa-compress')();
+const logger = require('koa-logger')();
 
 const app = new koa();
 const router = new koaRouter();

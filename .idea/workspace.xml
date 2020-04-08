@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef35281a-bdbe-48ed-a01c-3e3220d1f082" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +65,7 @@
       <updated>1585854859242</updated>
       <workItem from="1585854862615" duration="7253000" />
       <workItem from="1586295134129" duration="1355000" />
-      <workItem from="1586296511287" duration="4806000" />
+      <workItem from="1586296511287" duration="4842000" />
     </task>
     <task id="LOCAL-00001" summary="adding middleware definition">
       <created>1586384178339</created>
@@ -104,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586384846205</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding support for compression">
+      <created>1586384940270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586384940270</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,18 +123,19 @@
     <MESSAGE value="removing dummy code consoles" />
     <MESSAGE value="adding body parser for koa" />
     <MESSAGE value="adding support for helmet" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding support for helmet" />
+    <MESSAGE value="adding support for compression" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding support for compression" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585855269187">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="104" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.728@0.23.1280.728" timestamp="1585855269187" />
-    <state x="0" y="45" key="CommitChangelistDialog2" timestamp="1586384846031">
+    <state x="0" y="45" key="CommitChangelistDialog2" timestamp="1586384940038">
       <screen x="0" y="23" width="1680" height="965" />
     </state>
     <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.960@0.23.1680.960" timestamp="1586384576793" />
-    <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1586384846031" />
+    <state x="0" y="45" key="CommitChangelistDialog2/0.23.1680.965@0.23.1680.965" timestamp="1586384940038" />
     <state width="1228" height="106" key="GridCell.Tab.0.bottom" timestamp="1586384369668">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
