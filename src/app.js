@@ -13,12 +13,18 @@ const logger = require('koa-logger')();
 // ToDo: Although keep a place holder for future projects
 const cors = require('@koa/cors')();
 
+const { isDevelopment } = require('./config');
+
 const app = new koa();
 const router = new koaRouter();
 
 const jwt = require('jsonwebtoken');
 
 const errorHandler = require('./middleware/error.middleware');
+
+if(isDevelopment) {
+    app.use(logger);
+}
 
 function isAuthorized(ctx, next) {
     next();
