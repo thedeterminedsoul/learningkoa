@@ -8,6 +8,8 @@ const router = new koaRouter();
 
 const jwt = require('jsonwebtoken');
 
+const errorHandler = require('./middleware/error.middleware');
+
 function isAuthorized(ctx, next) {
     console.log(`Authorization happening ${Date.now()}`);
     next();
@@ -46,6 +48,7 @@ router.get('/hello', isAuthorized, (ctx) => {
 });
 
 app.use(router.routes());
+app.use(errorHandler);
 
 app.listen(3000, () => {
     console.log("Started KOA application");
